@@ -4,17 +4,11 @@ story1 = {
     "end": "The clouds parted and the lightning of Zeus came crashing down into Sotark, but instead of turning him to ash, it empowered him. Sensing this, Sotark arose once more and aimed his spear at the enemy. Before the fiend could react, Sotark launched his spear with the power of Zeus and vanquished the foe."
 }
 print(story1)
-
 print(type(story1))
-
 print(story1.keys())
-
 print(story1.values())
-
 print(story1.get("start"))
 print(story1.get("middle"))
 print(story1.get("end"))
-
 story1["hero"] = "Sotark"
-
 print(story1.keys())
